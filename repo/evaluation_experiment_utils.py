@@ -7,8 +7,8 @@ from itertools import product
 BASE_DIR = "./prec_acc_runs"
 RESULT_DIR = BASE_DIR + "/tables"
 
-# NOTICE : Originaly in this work, X was used as the group feature and Z was used as the remaining features and thats how they are named in the code.
-# This is the opposite of how they are denoted in the submitted paper.
+# NOTICE: In our code, we use X to denote group features; in the paper, groups were denoted by Z, and the notation X was used to describe all features. 
+# We apologize for any confusion this may raise while revising the code, and will correct this so that notation will be consistent for the next revision and before we make our code public.
 
 class RunType(Enum):
     NAIVE = 1,
