@@ -6,6 +6,8 @@ import random
 import matplotlib.pyplot as plt
 import json
 
+# NOTICE : Originaly in this work, X was used as the group feature and Z was used as the remaining features and thats how they are named in the code.
+# This is the opposite of how they are denoted in the submitted paper.
 
 def set_seeds(seed=42):
     torch.manual_seed(seed)
