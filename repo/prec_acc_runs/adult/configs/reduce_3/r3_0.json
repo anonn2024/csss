@@ -1,0 +1,1 @@
+{"dataset_path": "./datasets/transformed/adult_r3_4.csv", "dataset_name": "adult", "num_groups": 4, "conds": [{}], "c_u_list": [0.65], "prec_tau_list": [5], "app_tau_list": [5], "penalty_param": 6, "c_tolerance": 0.02, "fairness_param": 0}

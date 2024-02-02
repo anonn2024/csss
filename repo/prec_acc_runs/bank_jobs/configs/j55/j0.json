@@ -1,0 +1,1 @@
+{"dataset_path": "./datasets/transformed/bank_jobs_10.csv", "dataset_name": "bank_jobs", "num_groups": 10, "conds": [{}], "c_u_list": [0.65], "prec_tau_list": [5], "app_tau_list": [5], "penalty_param": 6, "c_tolerance": 0.05, "fairness_param": 0}
