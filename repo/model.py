@@ -7,6 +7,9 @@ from sklearn.linear_model import LogisticRegression
 
 from utils import set_seeds
 
+# NOTICE : Originaly in this work, X was used as the group feature and Z was used as the remaining features and thats how they are named in the code.
+# This is the opposite of how they are denoted in the submitted paper.
+
 SEED = 0
 class LinearRegressionModel(nn.Module):
     def __init__(self, x: torch.Tensor or None, z: torch.tensor, tau=2, withXParams=True, std=1.0, seed=0):
