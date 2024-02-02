@@ -3,7 +3,11 @@ import torch
 from torch import sigmoid
 from torch.utils.data import DataLoader
 
+# NOTICE : Originaly in this work, X was used as the group feature and Z was used as the remaining features and thats how they are named in the code.
+# This is the opposite of how they are denoted in the submitted paper.
 
+
+# Class for calculating zero-one metrics for validation
 class StrategicTester:
     def __init__(self, X, Z, Y, loss, population_list: torch.Tensor, c_u):
         self.X = X
