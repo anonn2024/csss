@@ -7,6 +7,8 @@ from itertools import product
 BASE_DIR = "./prec_acc_runs"
 RESULT_DIR = BASE_DIR + "/tables"
 
+# NOTICE : Originaly in this work, X was used as the group feature and Z was used as the remaining features and thats how they are named in the code.
+# This is the opposite of how they are denoted in the submitted paper.
 
 class RunType(Enum):
     NAIVE = 1,
