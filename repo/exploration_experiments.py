@@ -9,6 +9,8 @@ from copy import deepcopy
 from torch.utils.data import random_split
 from torch.optim import SGD
 
+# NOTICE: In our code, we use X to denote group features; in the paper, groups were denoted by Z, and the notation X was used to describe all features. 
+# We apologize for any confusion this may raise while revising the code, and will correct this so that notation will be consistent for the next revision and before we make our code public.
 
 def learn(c_u, c_s, N, n_samples, tau, penalty_scalar=10, alt_sig=True, data=None, seed=42):
     if data is None:
