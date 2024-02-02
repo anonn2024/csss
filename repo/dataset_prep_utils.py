@@ -7,6 +7,8 @@ from data import DataContainer
 from exploration_experiments import *
 from model import LinearClassifier
 
+# NOTICE : Originaly in this work, X was used as the group feature and Z was used as the remaining features and thats how they are named in the code.
+# This is the opposite of how they are denoted in the submitted paper.
 
 def load_dataset(full_path, column_names=None, y_name=None, has_header=False):
     assert (column_names is None or y_name in column_names)
