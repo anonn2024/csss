@@ -8,6 +8,8 @@ from utils import *
 from data import DataContainer
 import fairtorch
 
+# NOTICE : Originaly in this work, X was used as the group feature and Z was used as the remaining features and thats how they are named in the code.
+# This is the opposite of how they are denoted in the submitted paper.
 
 class StrategicTrainer:
     def __init__(self, model, data: DataContainer, opt, loss,
